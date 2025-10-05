@@ -1,0 +1,31 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Local Terraform directories
+.terraform/
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# SSH keys
+*.pem
+*.key
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# System / editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
