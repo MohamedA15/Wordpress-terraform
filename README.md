@@ -8,14 +8,22 @@ It automates the setup of networking, compute, and security layers — enabling 
 
 🧱 Infrastructure Overview
 The Terraform configuration builds the following components automatically:
+
 🌩️ VPC with both public and private subnets
+
 🌐 Internet Gateway for external connectivity
+
 🔁 NAT Gateway for secure private subnet access
+
 🧱 Security Groups for controlled ingress & egress (HTTP, HTTPS, SSH)
+
 💻 EC2 Instance (Ubuntu) hosting WordPress + Apache + PHP
+
 🗄️ MySQL Database (locally hosted on EC2; optional RDS integration)
+
 🔐 Key Pair for SSH access
-📡 Elastic IP (optional) for persistent public access
+
+
 
 
 
