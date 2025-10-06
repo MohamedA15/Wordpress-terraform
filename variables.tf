@@ -42,7 +42,7 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-# Security Group Variables (optional if you want to make rules dynamic)
+# Security Group Variables 
 variable "sg_name" {
   type    = string
   default = "Wordpress-sg"
